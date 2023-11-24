@@ -209,7 +209,7 @@ export const statesJson = {
       type: "Feature",
       id: "07",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 7,
         id: "connecticut-id",
       },
@@ -259,7 +259,7 @@ export const statesJson = {
       type: "Feature",
       id: "09",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 3,
         id: "delaWare-id",
       },
@@ -284,7 +284,7 @@ export const statesJson = {
       type: "Feature",
       id: "10",
       properties: {
-        vote: 3,
+        vote: 0,
         points: 3,
         id: "districtOfColumbia-id",
       },
@@ -309,7 +309,7 @@ export const statesJson = {
       type: "Feature",
       id: "11",
       properties: {
-        vote: 3,
+        vote: 2,
         points: 29,
         id: "florida-id",
       },
@@ -334,7 +334,7 @@ export const statesJson = {
       type: "Feature",
       id: "12",
       properties: {
-        vote: 3,
+        vote: 2,
         points: 16,
         id: "georgia-id",
       },
@@ -359,7 +359,7 @@ export const statesJson = {
       type: "Feature",
       id: "13",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 4,
         id: "hawaii-id",
       },
@@ -384,7 +384,7 @@ export const statesJson = {
       type: "Feature",
       id: "14",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 4,
         id: "idaho-id",
       },
@@ -402,14 +402,14 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-114.4788, 44.2394],
+        coordinates: [-114.3788, 43.5394],
       },
     },
     {
       type: "Feature",
       id: "15",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 20,
         id: "illinois-id",
       },
@@ -434,7 +434,7 @@ export const statesJson = {
       type: "Feature",
       id: "16",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 11,
         id: "indiana-id",
       },
@@ -484,7 +484,7 @@ export const statesJson = {
       type: "Feature",
       id: "18",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 6,
         id: "kansas-id",
       },
@@ -502,14 +502,14 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-96.8005, 38.5111],
+        coordinates: [-98.4005, 38.5111],
       },
     },
     {
       type: "Feature",
       id: "19",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 8,
         id: "kentucky-id",
       },
@@ -534,7 +534,7 @@ export const statesJson = {
       type: "Feature",
       id: "20",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 8,
         id: "louisiana-id",
       },
@@ -552,14 +552,14 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-91.8749, 31.1801],
+        coordinates: [-92.4749, 31.1801],
       },
     },
     {
       type: "Feature",
       id: "21",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 4,
         id: "maine-id",
       },
@@ -576,7 +576,7 @@ export const statesJson = {
         points: 4,
       },
       geometry: {
-        type: "Point",
+        type: "MultiPoint",
         coordinates: [-69.226, 45.3695],
       },
     },
@@ -584,12 +584,12 @@ export const statesJson = {
       type: "Feature",
       id: "22",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 10,
         id: "maryland-id",
       },
       geometry: {
-        type: "Polygon",
+        type: "MultiPolygon",
         coordinates: marylandCoordinates,
       },
     },
@@ -609,7 +609,7 @@ export const statesJson = {
       type: "Feature",
       id: "23",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 11,
         id: "massachusetts-id",
       },
@@ -684,7 +684,7 @@ export const statesJson = {
       type: "Feature",
       id: "26",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 6,
         id: "mississippi-id",
       },
@@ -709,7 +709,7 @@ export const statesJson = {
       type: "Feature",
       id: "27",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 10,
         id: "missouri-id",
       },
@@ -734,7 +734,7 @@ export const statesJson = {
       type: "Feature",
       id: "28",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 3,
         id: "montana-id",
       },
@@ -759,7 +759,7 @@ export const statesJson = {
       type: "Feature",
       id: "29",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 5,
         id: "nebraska-id",
       },
@@ -802,7 +802,7 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-117.1219, 38.4199],
+        coordinates: [-117.1219, 39.4199],
       },
     },
     {
@@ -834,7 +834,7 @@ export const statesJson = {
       type: "Feature",
       id: "32",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 14,
         id: "newJersey-id",
       },
@@ -859,7 +859,7 @@ export const statesJson = {
       type: "Feature",
       id: "33",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 5,
         id: "newMexico-id",
       },
@@ -902,14 +902,14 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-74.9384, 42.1497],
+        coordinates: [-74.9384, 42.8497],
       },
     },
     {
       type: "Feature",
       id: "35",
       properties: {
-        vote: 3,
+        vote: 2,
         points: 15,
         id: "northCarolina-id",
       },
@@ -934,7 +934,7 @@ export const statesJson = {
       type: "Feature",
       id: "36",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 3,
         id: "northDakota-id",
       },
@@ -984,7 +984,7 @@ export const statesJson = {
       type: "Feature",
       id: "38",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 7,
         id: "oklahoma-id",
       },
@@ -1009,7 +1009,7 @@ export const statesJson = {
       type: "Feature",
       id: "39",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 7,
         id: "oregon-id",
       },
@@ -1059,12 +1059,12 @@ export const statesJson = {
       type: "Feature",
       id: "41",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 4,
         id: "rhodeIsland-id",
       },
       geometry: {
-        type: "Polygon",
+        type: "MultiPolygon",
         coordinates: rhodeIslandCoordinates,
       },
     },
@@ -1084,7 +1084,7 @@ export const statesJson = {
       type: "Feature",
       id: "42",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 9,
         id: "southCarolina-id",
       },
@@ -1109,7 +1109,7 @@ export const statesJson = {
       type: "Feature",
       id: "43",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 3,
         id: "southDakota-id",
       },
@@ -1127,14 +1127,14 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-99.0022, 44.4443],
+        coordinates: [-99.9022, 44.4443],
       },
     },
     {
       type: "Feature",
       id: "44",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 11,
         id: "tenneessee-id",
       },
@@ -1177,14 +1177,14 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-97.6475, 31.106],
+        coordinates: [-98.8475, 31.106],
       },
     },
     {
       type: "Feature",
       id: "46",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 6,
         id: "utah-id",
       },
@@ -1209,7 +1209,7 @@ export const statesJson = {
       type: "Feature",
       id: "47",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 3,
         id: "vermont-id",
       },
@@ -1234,12 +1234,12 @@ export const statesJson = {
       type: "Feature",
       id: "48",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 13,
         id: "virginia-id",
       },
       geometry: {
-        type: "Polygon",
+        type: "MultiPolygon",
         coordinates: virginiaCoordinates,
       },
     },
@@ -1259,12 +1259,12 @@ export const statesJson = {
       type: "Feature",
       id: "49",
       properties: {
-        vote: 2,
+        vote: 0,
         points: 12,
         id: "washington-id",
       },
       geometry: {
-        type: "Polygon",
+        type: "MultiPolygon",
         coordinates: washingtonCoordinates,
       },
     },
@@ -1284,7 +1284,7 @@ export const statesJson = {
       type: "Feature",
       id: "50",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 5,
         id: "westVirginia-id",
       },
@@ -1302,7 +1302,7 @@ export const statesJson = {
       },
       geometry: {
         type: "Point",
-        coordinates: [-80.9696, 38.468],
+        coordinates: [-81.0696, 38.468],
       },
     },
     {
@@ -1334,7 +1334,7 @@ export const statesJson = {
       type: "Feature",
       id: "52",
       properties: {
-        vote: 2,
+        vote: 3,
         points: 3,
         id: "wyoming-id",
       },
