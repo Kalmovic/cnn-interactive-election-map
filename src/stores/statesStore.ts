@@ -5,6 +5,7 @@ type StatesType = {
   statesData: typeof statesJson;
   statesDataById: typeof statesPropertiesById;
   voteProgress: number[];
+  resetMap: () => void;
   changeStateVote: (stateName: keyof typeof statesPropertiesById) => void;
 };
 
@@ -29,14 +30,21 @@ export const useStatesStore = create<StatesType>()((set) => ({
     sumBasedOnVote(3),
     sumBasedOnVote(4),
   ],
+  resetMap: () =>
+    set({
+      statesData: statesJson,
+      statesDataById: statesPropertiesById,
+      voteProgress: [
+        sumBasedOnVote(0),
+        sumBasedOnVote(1),
+        sumBasedOnVote(2),
+        sumBasedOnVote(3),
+        sumBasedOnVote(4),
+      ],
+    }),
   changeStateVote: (stateName: keyof typeof statesPropertiesById) =>
     set((prevState) => {
-      console.log("statesPropertiesById", statesPropertiesById);
-      console.log("stateName", stateName);
-
-      // if (typeof stateName !== "string") return prevState;
       const feature = statesPropertiesById[stateName];
-      console.log("feature", feature);
 
       const updatedFeatures = prevState.statesData.features.map((prevFeature) =>
         prevFeature.id === feature?.id
