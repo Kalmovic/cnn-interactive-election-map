@@ -46,23 +46,27 @@ export const useStatesStore = create<StatesType>()((set) => ({
     set((prevState) => {
       const feature = statesPropertiesById[stateName];
 
-      const updatedFeatures = prevState.statesData.features.map((prevFeature) =>
-        prevFeature.id === feature?.id
-          ? {
-              ...prevFeature,
-              properties: {
-                ...prevFeature.properties,
-                vote:
-                  prevFeature.properties.vote === 4
-                    ? 0
-                    : prevFeature.properties.vote + 1,
-              },
-            }
-          : prevFeature
+      const indexToUpdate = prevState.statesData.features.findIndex(
+        (prevFeature) => prevFeature.id === feature?.id
       );
 
+      const updatedFeatures = [...prevState.statesData.features];
+
+      if (indexToUpdate !== -1) {
+        updatedFeatures[indexToUpdate] = {
+          ...updatedFeatures[indexToUpdate],
+          properties: {
+            ...updatedFeatures[indexToUpdate].properties,
+            vote:
+              updatedFeatures[indexToUpdate].properties.vote === 4
+                ? 0
+                : updatedFeatures[indexToUpdate].properties.vote + 1,
+          },
+        };
+      }
+
       const statesData = {
-        ...prevState.statesData,
+        type: prevState.statesData.type,
         features: updatedFeatures,
       };
 
