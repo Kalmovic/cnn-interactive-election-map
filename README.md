@@ -8,7 +8,7 @@ https://www.loom.com/share/c7937ebc80c04a76a6f52c326dc37cc2?sid=75ac5a71-381d-45
 
 ## Notes
 
-- This project was built in a sprint in 2 days. Theres some lint issues due to TS and performance might not be best
+- This project was built in a sprint in 2 days. Theres some lint issues due to TS and probably there's a better way to build this app 😅
 
 ## Tech Stack
 
